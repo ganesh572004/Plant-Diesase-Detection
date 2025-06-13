@@ -1,0 +1,21 @@
+# Data Science Libraries
+numpy==1.23.5  # Compatible version with macOS M1, precompiled binaries
+pandas
+
+# Web Framework
+Flask
+
+# Machine Learning Libraries
+scikit-learn==0.23.2
+
+  # Downgraded to match the version used for the model, or retrain with the current version
+torch==1.13.1+cpu  # M1 compatibility (CPU only)
+torchvision==0.14.0+cpu  # M1 compatibility (CPU only)
+torchaudio==0.13.1  # M1 compatibility (CPU only)
+
+# Other Utilities
+requests
+Pillow
+
+# Production WSGI Server
+gunicorn==20.0.4
